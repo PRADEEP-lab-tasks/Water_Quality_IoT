@@ -1,8 +1,5 @@
-#include <SPI.h>
-#include <LoRa.h>
-#include <Wire.h>
-#include <LiquidCrystal_I2C.h> // Include I2C LCD library
-
+#include<stdio.h>
+#include<conio.h>
 // Define LCD I2C address and screen size
 LiquidCrystal_I2C lcd(0x27, 16, 2); // 0x27 is a common I2C address for LCDs
 
